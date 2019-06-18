@@ -1,0 +1,35 @@
+.section {
+  &-article {
+    &_toggle {
+      border-bottom: 1px solid $black;
+      cursor: pointer;
+      line-height: $gutter;
+
+      &.collapsed {
+        .-opened {
+          display: none;
+        }
+
+        .-closed {
+          display: block;
+        }
+      }
+
+      .-opened {
+        display: block;
+        left: -2px;
+        position: relative;
+        top: -15px;
+      }
+
+      .-closed {
+        display: none;
+      }
+    }
+
+    &_indicator {
+      font-size: 2em;
+      font-weight: 300;
+    }
+  }
+}

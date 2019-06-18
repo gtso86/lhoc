@@ -1,0 +1,137 @@
+.section {
+  &-tabs {
+    .section-tabs_nav {
+      border: none;
+      margin-bottom: $gutter / 2;
+    }
+
+    .nav-link {
+      border: none;
+      color: $gray;
+      font-family: $spectra;
+      font-size: 1.665vw;
+      padding: 0;
+      transition: all 0.5s ease;
+
+      &:hover {
+        color: $black;
+      }
+
+      &.active {
+        background: none;
+        color: $cooper;
+      }
+    }
+
+    .section-article {
+      &_content {
+        margin-top: $gutter / 2;
+        white-space: pre-wrap;
+      }
+    }
+  }
+}
+
+.filter {
+  &-tabs {
+    padding-bottom: $gutter / 2;
+  }
+
+  &-tree {
+    margin-bottom: $gutter;
+    position: relative;
+
+    &:before {
+      background: $dark-gray;
+      content: '';
+      height: 0%;
+      left: -$gutter;
+      position: absolute;
+      top: 0;
+      transition: all 0.5s ease;
+      width: calc(100vw + 60px);
+      z-index: -1;
+    }
+
+    .spinner-border {
+      color: $cooper;
+    }
+
+    &.-active {
+      &:before {
+        height: 100%;
+      }
+
+      .nav-link {
+        color: $off-gray;
+
+        &:hover {
+          color: $white;
+
+          .filter-tab_icon {
+            path {
+              stroke: $white;
+            }
+          }
+        }
+      }
+    }
+
+    .tab-pane.fade {
+      outline: none !important;
+      transition: opacity 0.5s linear .5s;
+    }
+
+    .nav-item {
+
+      &:first-child {
+        display: none;
+      }
+    }
+
+    .nav-link {
+      color: $black;
+      font-weight: bold;
+      padding: $gutter / 2;
+      transition: all 0.5s ease;
+
+      &:hover {
+        color: $cooper;
+
+        .filter-tab_icon {
+          path {
+            stroke: $cooper;
+          }
+        }
+      }
+
+      &.active {
+        color: $cooper;
+
+        .filter-tab_icon {
+          transform: rotate(90deg);
+
+          path {
+            stroke: $cooper;
+          }
+        }
+      }
+    }
+  }
+
+  &-tab {
+    &_icon {
+      height: 20px;
+      margin-left: $gutter / 2;
+      transform: rotate(270deg);
+      transition: all 0.5s ease;
+
+      path {
+        transition: all 0.5s ease;
+      }
+    }
+  }
+
+  &-navigation {
+  }
+}

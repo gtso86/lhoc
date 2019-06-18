@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: 'GT Sectra Display';
+  src: url('GT-Sectra-Display-Bold.eot?#iefix') format('embedded-opentype'),
+       url('GT-Sectra-Display-Bold.otf')  format('opentype'),
+       url('GT-Sectra-Display-Bold.woff') format('woff'),
+       url('GT-Sectra-Display-Bold.ttf')  format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

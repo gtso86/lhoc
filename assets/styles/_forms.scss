@@ -1,0 +1,49 @@
+.custom {
+  &-input {
+    &_wrapper {
+      line-height: 0;
+      padding-bottom: $gutter / 2;
+      padding-top: 1em;
+      position: relative;
+    }
+
+    &_field {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid $black;
+      line-height: 1;
+      outline: none !important;
+      transition: all 0.5s ease;
+      width: 100%;
+
+      &.invalid {
+        border-bottom: 1px solid $cooper;
+      }
+
+      &.-filled,
+      &:focus {
+        & + .custom-input_label {
+          color: $cooper;
+          top: 0;
+          transform: scale(0.75);
+          transform-origin: left top;
+        }
+      }
+    }
+
+    &_label {
+      color: $black;
+      pointer-events: none;
+      position: absolute;
+      top: 1em;
+      transition: all 0.5s ease;
+    }
+
+    &_error {
+      bottom: 15px;
+      color: $cooper;
+      font-size: 12px;
+      position: absolute;
+    }
+  }
+}

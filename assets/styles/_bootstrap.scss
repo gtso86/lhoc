@@ -1,0 +1,20 @@
+// custom.scss
+
+// Custom overrides go first
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                18 !default;
+$grid-gutter-width:           60px !default;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$headings-font-weight:        700 !default;
+
+// Then include the following
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
