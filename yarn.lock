@@ -1786,6 +1786,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.17.tgz#25fdbdfd282c2f86ddf3fcefbd98be99cd2627e2"
   integrity sha512-0p1rCgM3LLbAdwBnc7gqgnvjHg9KpbhcSphergHShlkWz8EdPawoMJ3/VbezI0mGC5eKCDzMaPgF9Yca6cKvrg==
 
+"@snyk/protect@^1.689.0":
+  version "1.689.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.689.0.tgz#5af2bd4f5911e7f6d335e841e6dec28234fe44dc"
+  integrity sha512-JpELnptOu/DqDtwgs0CMhAcPbpv9eSqHwpucFZRy8wy/L9AcGi8azAXso12JZ/ZWxIBFgZjWwj67D+Q04qOf2A==
+
 "@types/html-minifier-terser@^5.0.0":
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-5.1.2.tgz#693b316ad323ea97eed6b38ed1a3cc02b1672b57"
