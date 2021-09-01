@@ -10920,10 +10920,10 @@ vue-the-mask@^0.11.1:
   resolved "https://registry.yarnpkg.com/vue-the-mask/-/vue-the-mask-0.11.1.tgz#91ee01008354ae57bccc79bb61b65f32d971d9d5"
   integrity sha512-UquSfnSWejD0zAfcD+3jJ1chUAkOAyoxya9Lxh9acCRtrlmGcAIvd0cQYraWqKenbuZJUdum+S174atv2AuEHQ==
 
-vue2-filters@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.6.0.tgz#48c66175cb23e8d66fe829adb6e4b19c87c219bb"
-  integrity sha512-l7GPoQW0aWBS0RBP5dI1udAlg8qcfd8zOHqFrQ29ZOKfAaLxGMyqsqTo1thvfaAs6w2egLPlllsaqBhmHzaV6w==
+vue2-filters@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.13.0.tgz#43b56d952268a0636f81e45eeac78b1c3a0dae15"
+  integrity sha512-CQXLyG4YQMHxPkoLm+6rKcrcG/+zNtN+wtber99DiDO7DNwjcq8XTG9Gn6QKGL4OWcNmeITeUZXKS3mPMo4ERw==
 
 vue@^2.5.17:
   version "2.6.10"
